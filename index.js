@@ -37,9 +37,9 @@ const cli = yargs
     default: process.env.SMTP_AUTH_USER,
     describe: 'Username'
   })
-  .option('smtp-auth-password', {
+  .option('smtp-auth-pass', {
     alias: 'P',
-    default: process.env.SMTP_AUTH_PASSWORD,
+    default: process.env.SMTP_AUTH_PASS,
     describe: 'Password'
   })
   .option('smtp-host', {
@@ -92,8 +92,8 @@ const smtpConfig = {
 
 // SMTP authentication settings
 const auth = {
-  user: process.env.SMTP_AUTH_USER,
-  pass: process.env.SMTP_AUTH_PASS
+  user: cli.smtpAuthUser,
+  pass: cli.smtpAuthPass
 };
 
 if (auth.user || auth.pass) {
