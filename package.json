@@ -1,5 +1,5 @@
 {
-  "name": "nodemailer-cli",
+  "name": "@alphahydrae/nodemailer-cli",
   "version": "1.0.0",
   "description": "Send mails from the command line with Nodemailer",
   "main": "index.js",
