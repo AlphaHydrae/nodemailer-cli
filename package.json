@@ -1,15 +1,13 @@
 {
   "name": "nodemailer-cli",
   "version": "1.0.0",
-  "private": true,
   "description": "Send mails from the command line with Nodemailer",
   "main": "index.js",
   "bin": {
     "nodemailer": "./index.js"
   },
   "files": [
-    "index.js",
-    "README.md"
+    "index.js"
   ],
   "scripts": {
     "doctoc": "doctoc --notitle --github README.md"
