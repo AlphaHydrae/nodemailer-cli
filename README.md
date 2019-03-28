@@ -18,7 +18,7 @@ Send mails from the command line with [Nodemailer][nodemailer].
 With [npm][npm]:
 
 ```bash
-npm install -g nodemailer-cli
+npm install -g @alphahydrae/nodemailer-cli
 
 nodemailer \
   --from bob@example.com --to alice@example.com \
@@ -28,7 +28,7 @@ nodemailer \
 With [npx][npx]:
 
 ```bash
-npx nodemailer-cli \
+npx @alphahydrae/nodemailer-cli \
   --from bob@example.com --to alice@example.com \
   --text "Hello Alice" --smtp-host smtp.example.com
 ```
